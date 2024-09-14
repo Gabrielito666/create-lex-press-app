@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const fs = require('fs').promises;
 const { spawnSync } = require('child_process');
 const path = require('path');

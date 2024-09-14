@@ -1,10 +1,10 @@
 {
-  "name": "create-lex-press-app",
+  "name": "create-lexpress-app",
   "version": "1.0.1",
   "description": "'template for lex-press app'",
   "main": "index.js",
   "bin": {
-    "create-lex-press-app": "index.js"
+    "create-lexpress-app": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

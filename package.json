@@ -1,6 +1,6 @@
 {
-  "name": "create-lexpress-app",
-  "version": "1.0.1",
+  "name": "create-lex-press-app",
+  "version": "1.0.0",
   "description": "'template for lex-press app'",
   "main": "index.js",
   "bin": {
@@ -10,5 +10,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Gabriel Farías",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "tar": "^7.4.3"
+  }
 }

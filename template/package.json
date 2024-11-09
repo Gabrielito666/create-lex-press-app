@@ -1,0 +1,23 @@
+{
+    "name": "lex-press-app",
+    "version": "1.0.0",
+    "main": "index.js",
+    "directories": {
+      "lib": "lib"
+    },
+    "scripts": {
+      "dev": "nodemon --watch ./ --ext js,jsx,ts,tsx,json,html,css --exec \"node index.js\" --ignore .lex",
+      "start": "node index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+      "lex-press": "^1.0.0",
+      "dotenv": "^16.4.5"
+    },
+    "devDependencies": {
+      "nodemon": "^3.1.4"
+    }
+}

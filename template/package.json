@@ -7,7 +7,8 @@
     },
     "scripts": {
       "dev": "nodemon --watch ./ --ext js,jsx,ts,tsx,json,html,css --exec \"node index.js\" --ignore .lex",
-      "start": "node index.js"
+      "start": "node index.js",
+      "build": "BUILD_MODE=true node index.js"
     },
     "keywords": [],
     "author": "",

@@ -6,15 +6,17 @@
       "lib": "lib"
     },
     "scripts": {
-      "dev": "nodemon --watch ./ --ext js,jsx,ts,tsx,json,html,css --exec \"node index.js\" --ignore .lex",
-      "start": "node index.js"
+      "dev": "nodemon --watch ./ --ext js,jsx,ts,tsx,json,html,css --exec \"NODE_ENV=dev node index.js\" --ignore .lex",
+      "start": "NODE_ENV=production node .lex-press/server.js",
+      "build": "BUILD_MODE=true node index.js"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "description": "",
     "dependencies": {
-      "lex-press": "^1.0.4"
+      "@lek-js/lex" : "^1.0.1",
+      "lex-press": "^2.0.1"
     },
     "devDependencies": {
       "nodemon": "^3.1.4"

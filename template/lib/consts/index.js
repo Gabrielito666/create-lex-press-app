@@ -4,7 +4,7 @@ const path = require('path');
 const ROOT_PATH = process.cwd();
 const $cwd = p =>
 {
-  try   { return path.resolve(ROOT_PATH, p) }
+  try { return path.resolve(ROOT_PATH, p) }
   catch { return p }
 }
 

@@ -6,9 +6,9 @@
       "lib": "lib"
     },
     "scripts": {
-      "dev": "nodemon --watch ./ --ext js,jsx,ts,tsx,json,html,css --exec \"NODE_ENV=dev node index.js\" --ignore .lex",
+      "dev": "nodemon --watch ./ --ext js,jsx,ts,tsx,json,html,css --exec \"NODE_ENV=development node index.js\" --ignore .lex",
       "start": "NODE_ENV=production node .lex-press/server.js",
-      "build": "BUILD_MODE=true node index.js"
+      "build": "node node_modules/lex-press/build/index.js index.js"
     },
     "keywords": [],
     "author": "",
@@ -16,7 +16,9 @@
     "description": "",
     "dependencies": {
       "@lek-js/lex" : "^1.0.1",
-      "lex-press": "^2.0.1"
+      "lex-press": "^2.0.6",
+      "esbuild": "^0.24.0",
+      "lex-builder": "^1.0.17"
     },
     "devDependencies": {
       "nodemon": "^3.1.4"

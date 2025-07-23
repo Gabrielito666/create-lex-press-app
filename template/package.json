@@ -16,9 +16,9 @@
     "description": "",
     "dependencies": {
       "@lek-js/lex" : "^1.0.2",
-      "lex-press": "^2.0.7",
+      "lex-press": "^2.0.8",
       "esbuild": "^0.24.0",
-      "lex-builder": "^1.0.19"
+      "lex-builder": "^1.0.20"
     },
     "devDependencies": {
       "nodemon": "^3.1.4"

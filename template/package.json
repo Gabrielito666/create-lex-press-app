@@ -3,22 +3,22 @@
     "version": "1.0.0",
     "main": "index.js",
     "directories": {
-      "lib": "lib"
+      "lib": "lib",
+      "public": "public",
+      "views": "views"
     },
     "scripts": {
-      "dev": "nodemon --watch ./ --ext js,jsx,ts,tsx,json,html,css --exec \"NODE_ENV=development node index.js\" --ignore .lex",
-      "start": "NODE_ENV=production node .lex-press/server.js",
-      "build": "node node_modules/lex-press/build/index.js index.js"
+      "dev": "nodemon --watch ./ --ext js,jsx,ts,tsx,json,html,css --exec \"node index.js\"",
+      "start": "node .lex-press-server.js",
+      "build": "node index.js --build"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "description": "",
     "dependencies": {
-      "@lek-js/lex" : "^1.0.2",
-      "lex-press": "^2.0.8",
-      "esbuild": "^0.24.0",
-      "lex-builder": "^1.0.20"
+      "@lek-js/lex" : "^2.0.0",
+      "lex-press": "^3.0.0"
     },
     "devDependencies": {
       "nodemon": "^3.1.4"

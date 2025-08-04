@@ -13,6 +13,6 @@ WORKDIR /app
 
 COPY ./package*.json /app/
 COPY ./public /app/
-COPY --from=builder /app/.lex-press /app/.lex-press
+COPY --from=builder /app/.lex-press-server.js /app/.lex-press-server.js
 
 CMD ["npm", "run", "start"]

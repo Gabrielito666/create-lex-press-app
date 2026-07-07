@@ -1,2 +1,3 @@
 node_modules
-.lex-press-server.js
+lex-press-app
+.env

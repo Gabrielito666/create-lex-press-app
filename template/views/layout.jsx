@@ -1,4 +1,5 @@
 import Lex from "@lek-js/lex";
+import "./global.css";
 
 const Layout = ({ children }) =>
 {
@@ -6,7 +7,6 @@ const Layout = ({ children }) =>
     <head>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <link rel="stylesheet" href="/global.css"/>
         <title>Lex-press App</title>
     </head>
     <body>

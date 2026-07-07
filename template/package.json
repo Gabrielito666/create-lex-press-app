@@ -9,7 +9,7 @@
     },
     "scripts": {
       "dev": "nodemon --watch ./ --ext js,jsx,ts,tsx,json,html,css --exec \"node index.js\"",
-      "start": "node .lex-press-server.js",
+      "start": "node .lex-press-app/server.js",
       "build": "node index.js --build"
     },
     "keywords": [],
@@ -17,8 +17,8 @@
     "license": "ISC",
     "description": "",
     "dependencies": {
-      "@lek-js/lex" : "^2.0.0",
-      "lex-press": "^3.0.1"
+      "@lek-js/lex" : "3.0.3",
+      "lex-press": "3.0.2"
     },
     "devDependencies": {
       "nodemon": "^3.1.4"

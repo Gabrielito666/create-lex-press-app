@@ -3,8 +3,8 @@ const app = lexpress();
 
 if(!process.env.PORT) throw new Error("This app needs a PORT environment variable");
 
-app.public(CONSTS.PUBLIC_PATH);
-app.views(CONSTS.VIEWS_PATH);
+app.public("./public");
+app.views("./views");
 
 // Your code
 

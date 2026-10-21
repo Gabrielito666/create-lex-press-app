@@ -16,8 +16,8 @@
     "license": "ISC",
     "description": "",
     "dependencies": {
-      "@lek-js/lex" : "3.0.4",
-      "lex-press": "3.1.4"
+      "@lek-js/lex" : "3.0.5",
+      "lex-press": "3.1.5"
     },
     "devDependencies": {
       "nodemon": "^3.1.4"
